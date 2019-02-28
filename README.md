@@ -12,3 +12,6 @@ CMD to run test cases,
 or
 - >> checkbox-cli
 ```
+
+#### References
+- [Tutorials](https://checkbox.readthedocs.io/en/latest/tutorials.html)
