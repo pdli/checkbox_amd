@@ -11,4 +11,5 @@ _description:
 include:
 nested_part:
     graphics-discrete-gpu-cert-full
-    power-management-precheck-cert
+    stress-cert-blockers
+    stress-suspend-30-cycles-with-reboots-automated
