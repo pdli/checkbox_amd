@@ -15,3 +15,4 @@ or
 
 #### References
 - [Tutorials](https://checkbox.readthedocs.io/en/latest/tutorials.html)
+- [Installation](https://checkbox.readthedocs.io/en/latest/index.html#installation)
