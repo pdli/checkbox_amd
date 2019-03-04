@@ -10,6 +10,13 @@ _description:
  client-selftest test plan instead.
 include:
 nested_part:
+    graphics-integrated-gpu-cert-full
     graphics-discrete-gpu-cert-full
     stress-cert-blockers
     stress-suspend-30-cycles-with-reboots-automated
+ # Test discrete card first, if present, since it's the one we will be using
+ # after coming back from suspend if the system has hybrid graphics.
+    after-suspend-graphics-discrete-gpu-cert-full
+ # Now we ask to switch to the integrated graphics card. This requires a
+ # restart of checkbox.
+    after-suspend-graphics-integrated-gpu-cert-full
